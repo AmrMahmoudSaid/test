@@ -1,5 +1,4 @@
 FROM node:14-alpine
-WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
 # Copy the local code to the container
